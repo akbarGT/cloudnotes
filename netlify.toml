@@ -5,6 +5,6 @@
   force = true
   headers = {X-From = "Netlify"}
 [[headers]]
-  for = "https://fancy-narwhal-4896ee.netlify.app/login"
+  for = "https://fancy-narwhal-4896ee.netlify.app/signup"
   [headers.values]
     Access-Control-Allow-Origin = "*"
