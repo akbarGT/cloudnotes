@@ -7,6 +7,6 @@
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "https://data.mongodb-api.com/app/data-wwiex/endpoint/data/v1/action/insertOne"
+  for = "hhttps://fancy-narwhal-4896ee.netlify.app/"
     [headers.values]
     Access-Control-Allow-Origin = "*"
