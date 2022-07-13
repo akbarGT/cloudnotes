@@ -3,6 +3,6 @@
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "https://data.mongodb-api.com/app/data-wwiex/endpoint/data/v1/action/insertOne"
+  for = "/signup"
     [headers.values]
     Access-Control-Allow-Origin = "*"
