@@ -8,7 +8,6 @@ import React, { useState } from "react";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import Alert from "./components/Alert";
-const cors = require("cors");
 
 function App() {
   ///Alert Component>>>>
