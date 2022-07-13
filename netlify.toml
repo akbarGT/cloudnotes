@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://fancy-narwhal-4896ee.netlify.app/login"
+  from = "https://fancy-narwhal-4896ee.netlify.app"
   to = "https://data.mongodb-api.com/app/data-wwiex/endpoint/data/v1/action/insertOne"
   status = 200
   force = true
