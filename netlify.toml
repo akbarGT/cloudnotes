@@ -6,4 +6,7 @@
   status = 200
 
 [[headers]]
-  Access-Control-Allow-Origin: *
+  # Define which paths this specific [[headers]] block will cover.
+  for = "https://data.mongodb-api.com/app/data-wwiex/endpoint/data/v1/action/insertOne"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
