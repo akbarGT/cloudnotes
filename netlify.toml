@@ -6,7 +6,5 @@
   status = 200
 
 [[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "https://fancy-narwhal-4896ee.netlify.app/"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
+  /*
+  Access-Control-Allow-Origin: *
