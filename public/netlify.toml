@@ -1,12 +1,12 @@
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "https://data.mongodb-api.com/app/data-wwiex/endpoint/data/v1/action/insertOne"
+  to = "http://localhost:8888"
   status = 200
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
+  for = "https://data.mongodb-api.com/app/data-wwiex/endpoint/data/v1/action/insertOne"
     [headers.values]
     Access-Control-Allow-Origin = "*"
