@@ -128,7 +128,7 @@ const SignUp = (props) => {
           type="submit"
           className="btn btn-primary"
         >
-          SignUp &rarr;
+          SIGNUP &rarr;
         </button>
       </form>
     </div>
